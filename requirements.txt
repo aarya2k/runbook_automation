@@ -1,0 +1,9 @@
+FROM ubuntu:latest
+MAINTAINER Arunkumar "aarya2k@gmail.com"
+RUN apt-get update -y
+RUN apt-get install -y python-pip python-dev build-essential
+COPY . /runbook_automation
+WORKDIR /runbook_automation
+RUN pip install -r requirements.txt
+ENTRYPOINT ["python"]
+CMD ["runbook_automation.py"]
