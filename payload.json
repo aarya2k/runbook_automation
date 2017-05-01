@@ -1,0 +1,45 @@
+{
+ "user":"admin",
+ "port":"8080",
+ "instance":"2",
+ "hostname":"localhost",
+ "location":"ELLERN_RCDN", 
+ "os":"LINUX",
+ "action": [ 
+ 	{
+ 		"command": "mkdir",
+ 		"path":"C:\\Users\\arunrath\\PycharmProjects\\sample1" 
+ 	 },
+ 	 {
+ 		"command": "createfile",
+ 		"path":"C:\\Users\\arunrath\\PycharmProjects\\sample1\\file5" 
+ 	 },
+ 	 {
+ 		"command": "copyfile",
+ 		"path":"C:\\Users\\arunrath\\PycharmProjects\\sample",
+ 		"despath":"C:\\Users\\arunrath\\PycharmProjects\\sample1"
+ 	 },
+ 	 {
+ 		"command": "movefile",
+ 		"path":"C:\\Users\\arunrath\\PycharmProjects\\sample",
+ 		"despath":"C:\\Users\\arunrath\\PycharmProjects\\sample1"
+ 	 },
+ 	 {
+ 		"command": "catfile",
+ 		"path":"C:\\Users\\arunrath\\PycharmProjects\\sample1\\test1.txt"
+ 	 },
+	 {
+ 		"command": "pipecmd",
+ 		"path":"C:\\Users\\arunrath\\PycharmProjects\\sample1\\test1.txt"
+ 	 },
+ 	 {
+ 		"command": "removefile",
+ 		"path":"C:\\Users\\arunrath\\PycharmProjects\\sample1" 
+ 	 },
+ 	 {
+ 		"command": "removedir",
+ 		"path":"C:\\Users\\arunrath\\PycharmProjects\\sample1"	
+		
+ 	 }
+]
+}
